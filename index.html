@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    
+    
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous"/>
+
+   <!--fontawesome CDN-->
+   <script src="https://kit.fontawesome.com/365ea0db89.js" crossorigin="anonymous"></script>
+
+   <!--Slick Slider-->
+   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="./css/style.css"/>
+
+
+
+  </head>
+ <body>
+
+ <!--header-->
+    
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-12">
+                    <div class="btn-group">
+                        <button class="btn border dropdown-toggle my-md-4 my-2 text-white" 
+                          data-toggle="dropdown" 
+                          aria-haspopup="true" 
+                          aria-expanded="false">
+                            Rupees
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">USD</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <h2 class="my-md-3 site-title text-white">SHOP PLAZA</h2>
+                </div>  
+                <div class="col-md-4 col-12 text-right">
+                    <p class="my-md-4 header-links">
+                        <a href="#" class="px-2">Sign In</a>
+                        <a href="#" class="px-1">Create an Account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">FEATURES</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COLLECTION
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Essentials</a>
+                        <a class="dropdown-item" href="#">Electronics</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Cosmetics</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SHOP</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                      </li>
+                    
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+                <div class="navbar-nav">
+                    <li class="nav-item border rounded-circle mx-2 search-icon">
+                        <i class="fas fa-search p-2"></i>
+                    </li>
+                    <li class="nav-item border rounded-circle mx-2 basket-icon">
+                        <i class="fas fa-shopping-basket p-2"></i>
+                    </li>
+                </div>
+              </nav>
+        </div>
+
+    </header>
+
+ <!--header-->
+ <!--main section -->
+    <main>
+
+        <!--First Slider-->
+        <div class="container-fluid p-0">
+            <div class="site-slider">
+                <div class="slider-one">
+                    <div>
+                        <img src="./assets/item_11.jpg" class="img-fluid" alt="Banner 1"/>
+                    </div>
+                    <div>
+                        <img src="./assets/item21.jpg"class="img-fluid" alt="Banner 2"/>
+                    </div>
+                     <div>
+                        <img src="./assets/item31.jpg" class="img-fluid" alt="Banner 3"/>
+                     </div>
+                     <div>
+                      <img src="./assets/item41.jpg" class="img-fluid" alt="Banner 4"/>
+                   </div>
+                    
+                </div>
+                <div class="slider-btn">
+                  <span class="prev position-top">
+                    <i class="fas fa-chevron-left">
+
+                    </i>
+                  </span>
+                  <span class="next position-top right-0">
+                    <i class="fas fa-chevron-right">
+                      
+                    </i>
+                  </span>
+                </div>
+            </div>
+        </div>
+
+        <!--/First Slider-->
+        <!-- second Slider-->
+
+        <div class="container-fluid">
+          <div class="site-slider-two px-md-4">
+            <div class="row slider-two text-center">
+              <div class="col-md-2 product pt-md-5 pt-4">
+                <img src="./assets/phones1.jpg" alt="Product 1"/>
+                <span class="border site-btn btn-span">PHONES</span>
+              </div>
+              <div class="col-md-2 product pt-md-5 pt-4">
+                <img src="./assets/7_5.jpg" alt="Product 2"/>
+                <span class="border site-btn btn-span">SOFA AND CHAIRS</span>
+              </div>
+              <div class="col-md-2 product pt-md-5 pt-4">
+                <img src="./assets/7_6.jpg" alt="Product 3"/>
+                <span class="border site-btn btn-span">FURNITURE</span>
+              </div>
+              <div class="col-md-2 product pt-md-5 pt-4">
+                <img src="./assets/8_2 (2).jpg" alt="Product 4"/>
+                <span class="border site-btn btn-span">MUSIC SYSTEMS</span>
+              </div>
+              <div class="col-md-2 product pt-md-5 pt-4">
+                <img src="./assets/8_2 (5).jpg" alt="Product 5"/>
+                <span class="border site-btn btn-span">BASS RICH SPEAKERS</span>
+              </div>
+              <div class="col-md-2 product pt-md-5 pt-4">
+                <img src="./assets/8_21.jpeg" alt="Product 6"/>
+                <span class="border site-btn btn-span">SHOES</span>
+              </div>
+              <div class="col-md-2 product pt-md-5 pt-4">
+                <img src="./assets/16_1.jpg" alt="Product 7"/>
+                <span class="border site-btn btn-span">Cooking Essentials</span>
+              </div>
+              <div class="col-md-2 product pt-md-5 pt-4">
+                <img src="./assets/16_2.jpg" alt="Product 8"/>
+                <span class="border site-btn btn-span">Cooking Essentials</span>
+              </div>
+              
+            </div>
+            <div class="slider-btn">
+              <span class="prev position-top">
+                <i class="fas fa-chevron-left fa-2x text-secondary">
+
+                </i>
+              </span>
+              <span class="next position-top right-0">
+                <i class="fas fa-chevron-right fa-2x text-secondary">
+                  
+                </i>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!--second slider-->
+    </main>
+    <footer></footer>
+
+
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+    crossorigin="anonymous">
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+    crossorigin="anonymous">
+ </script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+   crossorigin="anonymous">
+ </script>
+
+ <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+ <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ <script type="text/javascript" src="slick/slick.min.js"></script>
+ <script src="./js/main.js"></script>
+</body>
+</html>
